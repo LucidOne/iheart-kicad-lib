@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0  Date: Tue 24 Jan 2012 02:41:17 AM EST
+#
+$CMP MIC29151-12WU
+D Micrel 1.5A 12V High-Current Low-Dropout Regulators
+K POWER REG REGUL
+F pdfs/mic29150.pdf
+$ENDCMP
+#
+$CMP SW_TACT
+D Tactiloe Switch
+K SW SWITCH
+$ENDCMP
+#
+$CMP XTAL_RESONATOR
+D Ceramic Crystal Resonator
+K XTAL RESONTAOR HZ
+$ENDCMP
+#
+#End Doc Library
