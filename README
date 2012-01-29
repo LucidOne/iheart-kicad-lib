@@ -1,2 +1,60 @@
-KiCad Libraries
+I Heart Engineering KiCAD Library
+http://www.iheartengineering.com
 
+================================================================
+Part Libraries
+----------------------------------------------------------------
+
+CONN_3POS_2.5MM_V
+  Molex SPOX Header 3 Pos 2.5mm Pitch
+  Part # 22-03-5035
+  http://www.molex.com/pdm_docs/sd/022035035_sd.pdf
+
+MIC29151-12WU / MIC29151-5.0WU
+  Micrel 1.5A High-Current Low-Dropout Regulators
+  Part # MIC29151-*
+  http://www.micrel.com/_PDF/mic29150.pdf
+
+SW_TACT
+  C&K PTS 645 6mm Tactile Switch
+  Part # PTS645SK50 LFS / PTS645SK50SMTRLFS
+  http://www.ck-components.com/14409/pts645_8sept11.pdf/
+
+XTAL_RESONATOR
+  Murata CERALOCK Ceramic Crystal Resonator
+  Part # CSTCE*V*
+  http://www.murata.com/products/catalog/pdf/p17e.pdf#page=8
+
+
+================================================================
+Footprint Modules
+----------------------------------------------------------------
+
+CONN_3POS_2.5MM_V
+  Molex SPOX Header 3 Pos 2.5mm Pitch
+  Part # 22-03-5035
+  http://www.molex.com/pdm_docs/sd/022035035_sd.pdf
+
+CSTCE____V__
+  Murata CERALOCK Ceramic Crystal Resonator
+  Part # CSTCE*V*
+  http://www.murata.com/products/catalog/pdf/p17e.pdf#page=8
+
+HOLE_#6
+  Mounting hole for #6 screw
+
+PANA_CAP_C
+  Panasonic Size C Polarized Radial Can Surface Mount Capacitor 
+  Part # EEE-HB1E100AR
+  http://industrial.panasonic.com/www-data/pdf/ABA0000/ABA0000CE117.pdf
+
+SW_M6_COMBO Surface mount and through hole combo footprint
+SW_M6_EMC Through hole with EMC protection pin
+SW_M6_PTH Through hole
+SW_M6_SMD Surface mount
+  C&K PTS 645 6mm Tactile Switch
+  Part # PTS645SK50 LFS / PTS645SK50SMTRLFS
+  http://www.ck-components.com/14409/pts645_8sept11.pdf/
+
+TO263-2
+  Common voltage regulator footprint

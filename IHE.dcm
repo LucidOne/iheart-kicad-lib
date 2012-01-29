@@ -1,19 +1,27 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 24 Jan 2012 02:41:17 AM EST
+EESchema-DOCLIB  Version 2.0  Date: Sat 28 Jan 2012 10:32:14 PM EST
+#
+$CMP CONN_3POS_2.5MM_V
+D Molex SPOX Header 3 Pos 2.5mm Pitch
+K CONN MOLEX
+F http://www.molex.com/pdm_docs/sd/022035035_sd.pdf
+$ENDCMP
 #
 $CMP MIC29151-12WU
-D Micrel 1.5A 12V High-Current Low-Dropout Regulators
-K POWER REG REGUL
-F pdfs/mic29150.pdf
+D Micrel 1.5A High-Current Low-Dropout Regulators
+K POWER REG REGUL VR
+F http://www.micrel.com/_PDF/mic29150.pdf
 $ENDCMP
 #
 $CMP SW_TACT
-D Tactiloe Switch
+D C&K PTS 645 6mm Tactile Switch
 K SW SWITCH
+F http://www.ck-components.com/14409/pts645_8sept11.pdf/
 $ENDCMP
 #
 $CMP XTAL_RESONATOR
-D Ceramic Crystal Resonator
-K XTAL RESONTAOR HZ
+D Murata CERALOCK Ceramic Crystal Resonator
+K XTAL RESONTAOR HZ X
+F http://www.murata.com/products/catalog/pdf/p17e.pdf#page=8
 $ENDCMP
 #
 #End Doc Library
