@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Tue 24 Apr 2012 06:34:36 PM EDT
+EESchema-LIBRARY Version 2.3  Date: Wed 30 May 2012 12:27:42 PM EDT
 #encoding utf-8
 #
 # CONN_3POS_2.5MM_V
@@ -50,7 +50,7 @@ A 0 25 75 1 1799 0 1 0 F 75 25 -75 25
 P 2 0 1 0  -75 -25  75 -25 N
 P 2 0 1 0  0 -50  0 75 N
 P 3 0 1 0  75 25  -75 25  -50 25 F
-X P1 1 0 175 100 D 50 50 1 1 I
+X P1 1 0 200 100 D 50 50 1 1 I
 X P2 2 0 -150 100 U 50 50 1 1 O
 ENDDRAW
 ENDDEF
