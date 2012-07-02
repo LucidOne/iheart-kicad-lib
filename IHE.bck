@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Wed 06 Jun 2012 02:21:09 PM EDT
+EESchema-DOCLIB  Version 2.0  Date: Mon 02 Jul 2012 03:43:33 PM EDT
 #
 $CMP CONN_3POS_2.5MM_V
 D Molex SPOX Header 3 Pos 2.5mm Pitch
@@ -7,8 +7,12 @@ F http://www.molex.com/pdm_docs/sd/022035035_sd.pdf
 $ENDCMP
 #
 $CMP DPDT
-D Switch inverseur
-K switch
+D DPDT
+K switch DPDT
+$ENDCMP
+#
+$CMP LED_DRIVER_SC74
+F http://i.imgur.com/EDbCZ.jpg
 $ENDCMP
 #
 $CMP MIC29151-12WU
