@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 02 Jul 2012 03:43:33 PM EDT
+EESchema-DOCLIB  Version 2.0  Date: Fri 27 Jul 2012 02:43:52 PM EDT
 #
 $CMP CONN_3POS_2.5MM_V
 D Molex SPOX Header 3 Pos 2.5mm Pitch
@@ -12,13 +12,19 @@ K switch DPDT
 $ENDCMP
 #
 $CMP LED_DRIVER_SC74
-F http://i.imgur.com/EDbCZ.jpg
+D IC LED DRIVER LINEAR SC74
+K BCR321U
+F http://i.imgur.com/RygG0.jpg
 $ENDCMP
 #
 $CMP MIC29151-12WU
 D Micrel 1.5A High-Current Low-Dropout Regulators
 K POWER REG REGUL VR
 F http://www.micrel.com/_PDF/mic29150.pdf
+$ENDCMP
+#
+$CMP PLCC6_RGB_LED
+F http://i.imgur.com/kI0XB.jpg
 $ENDCMP
 #
 $CMP SW_TACT

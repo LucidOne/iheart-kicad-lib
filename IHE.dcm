@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 02 Jul 2012 03:46:31 PM EDT
+EESchema-DOCLIB  Version 2.0  Date: Fri 27 Jul 2012 02:51:59 PM EDT
 #
 $CMP CONN_3POS_2.5MM_V
 D Molex SPOX Header 3 Pos 2.5mm Pitch
@@ -12,7 +12,9 @@ K switch DPDT
 $ENDCMP
 #
 $CMP LED_DRIVER_SC74
-F http://i.imgur.com/EDbCZ.jpg
+D IC LED DRIVER LINEAR SC74
+K BCR321U
+F http://www.infineon.com/dgdl/Infineon-BCR320U-BCR321U-LED-Driver-Rev2.0.pdf?folderId=db3a30431f848401011fcbf2ab4c04c4&fileId=db3a304324fc7f9a0125204353c942f9
 $ENDCMP
 #
 $CMP MIC29151-12WU
