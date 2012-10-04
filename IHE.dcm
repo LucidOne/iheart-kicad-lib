@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 EESchema-DOCLIB  Version 2.0  Date: Fri 31 Aug 2012 04:01:40 PM EDT
+=======
+EESchema-DOCLIB  Version 2.0  Date: Wed 01 Aug 2012 07:30:27 PM EDT
+>>>>>>> f2e2eee98d6d876a16c6c42231c9fa5dbdeaa241
 #
 $CMP CONN_3POS_2.5MM_V
 D Molex SPOX Header 3 Pos 2.5mm Pitch
@@ -11,10 +15,20 @@ D DPDT
 K switch DPDT
 $ENDCMP
 #
+$CMP LED_DRIVER_SC74
+D IC LED DRIVER LINEAR SC74
+K BCR321U
+F http://www.infineon.com/dgdl/Infineon-BCR320U-BCR321U-LED-Driver-Rev2.0.pdf?folderId=db3a30431f848401011fcbf2ab4c04c4&fileId=db3a304324fc7f9a0125204353c942f9
+$ENDCMP
+#
 $CMP MIC29151-12WU
 D Micrel 1.5A High-Current Low-Dropout Regulators
 K POWER REG REGUL VR
 F http://www.micrel.com/_PDF/mic29150.pdf
+$ENDCMP
+#
+$CMP PLCC6_RGB_LED
+F http://i.imgur.com/kI0XB.jpg
 $ENDCMP
 #
 $CMP SW_TACT
