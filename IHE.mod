@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 PCBNEW-LibModule-V1  Thu 04 Oct 2012 01:16:13 PM EDT
 # encoding utf-8
 Units deci-mils
@@ -11,7 +10,6 @@ Units deci-mils
 $INDEX
 1pin_NPTH_Mechanical
 1pin_NPTH_Mechanical_M3_Screw
->>>>>>> f2e2eee98d6d876a16c6c42231c9fa5dbdeaa241
 CBGA48 - ADXRS652
 CBGA48 - ADXRS652_v2
 CONN PWR JACK 2.0X6.3MM SMD
@@ -67,7 +65,6 @@ pin_array_6x1
 pin_array_7x1
 pin_array_8x1
 $EndINDEX
-<<<<<<< HEAD
 $MODULE 1pin-TH
 Po 0 0 0 15 5016AD3A 00000000 ~~
 Li 1pin-TH
@@ -75,13 +72,11 @@ Li 1pin-TH
 $MODULE 1pin_NPTH_Mechanical
 Po 0 0 0 15 4FFB48EE 00000000 ~~
 Li 1pin_NPTH_Mechanical
->>>>>>> f2e2eee98d6d876a16c6c42231c9fa5dbdeaa241
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
 Sc 0
 AR 1pin
 Op 0 0 0
-<<<<<<< HEAD
 T0 0 -1200 400 400 0 100 N I 21 N "1PIN"
 T1 0 1100 400 400 0 100 N I 21 N "P***"
 DC 0 0 984 0 79 21
@@ -95,12 +90,10 @@ DC 0 0 0 -900 150 21
 $PAD
 Sh "" C 1600 1600 0 0 0
 Dr 1200 0 0
->>>>>>> f2e2eee98d6d876a16c6c42231c9fa5dbdeaa241
 At HOLE N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
-<<<<<<< HEAD
 $EndMODULE 1pin-TH
 =======
 $EndMODULE 1pin_NPTH_Mechanical
@@ -123,7 +116,6 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE 1pin_NPTH_Mechanical_M3_Screw
->>>>>>> f2e2eee98d6d876a16c6c42231c9fa5dbdeaa241
 $MODULE CBGA48 - ADXRS652
 Po 0 0 0 15 4F971C1F 00000000 ~~
 Li CBGA48 - ADXRS652
