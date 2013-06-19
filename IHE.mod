@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 04 Feb 2013 02:12:21 PM EST
+PCBNEW-LibModule-V1  Wed 19 Jun 2013 03:50:22 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -58,6 +58,7 @@ USB micro-female
 XTAL_Resonator
 con-usb-mini-female
 pin_array_12x1
+pin_array_13x1
 pin_array_6x1
 pin_array_7x1
 pin_array_8x1
@@ -204864,43 +204865,43 @@ Dl 8.4328 3.2512
 Dl 8.4328 3.1496
 $EndMODULE QA box INVERSED 0.3x0.14IN
 $MODULE Relay
-Po 0 0 0 15 5109907E 00000000 ~~
+Po 0 0 0 15 51B75FD8 00000000 ~~
 Li Relay
 Sc 0
-AR 
+AR /50F73F7C
 Op 0 0 0
-T0 0 0 1 1 0 0.15 N V 21 N "Relay"
-T1 -6.01 0.67 1 1 0 0.15 N V 21 N "VAL**"
+T0 11.1125 0.254 1 1 900 0.15 N V 21 N "rel1"
+T1 -6.01 0.67 1 1 0 0.15 N I 21 N "RELAY"
 DS -10 -2.5 -10 2.5 0.15 21
-DS -10 2.5 10 2.5 0.15 21
-DS 10 2.5 10 -2.5 0.15 21
-DS 10 -2.5 -10 -2.5 0.15 21
+DS -10 2.5 11.778 2.5 0.15 21
+DS 11.778 2.5 11.778 -2.5 0.15 21
+DS 11.778 -2.5 -10 -2.5 0.15 21
 $PAD
-Sh "4" C 1.2 1.2 0 0 0
-Dr 0.9 0 0
+Sh "4" C 1.778 1.778 0 0 0
+Dr 0.762 0 0
 At STD N 00E0FFFF
-Ne 0 ""
-Po 8.68 -1.45
+Ne 4 "N-0000036"
+Po 10.16 -1.45
 $EndPAD
 $PAD
-Sh "3" C 1.2 1.2 0 0 0
-Dr 0.9 0 0
+Sh "3" C 1.778 1.778 0 0 0
+Dr 0.762 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 3 "N-0000035"
 Po 2.06 -1.45
 $EndPAD
 $PAD
-Sh "1" C 0.9 0.9 0 0 0
-Dr 0.6 0 0
+Sh "1" C 1.778 1.778 0 0 0
+Dr 0.762 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "/5V-Relay1"
 Po -8.08 -1.45
 $EndPAD
 $PAD
-Sh "2" C 0.9 0.9 0 0 0
-Dr 0.6 0 0
+Sh "2" C 1.778 1.778 0 0 0
+Dr 0.762 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 2 "GND"
 Po -5.54 -1.45
 $EndPAD
 $EndMODULE Relay
@@ -206328,7 +206329,7 @@ Po 2.49936 -1.59512
 $EndPAD
 $EndMODULE con-usb-mini-female
 $MODULE pin_array_12x1
-Po 0 0 0 15 4F70AC48 00000000 ~~
+Po 0 0 0 15 51C20AED 00000000 ~~
 Li pin_array_12x1
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
@@ -206345,84 +206346,84 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
-Ne 6 "/D10"
+Ne 0 ""
 Po -13.97 1.27
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 8 "/MOSI"
+Ne 0 ""
 Po -11.43 1.27
 $EndPAD
 $PAD
 Sh "3" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 7 "/MISO"
+Ne 0 ""
 Po -8.89 1.27
 $EndPAD
 $PAD
 Sh "4" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 10 "/SCK"
+Ne 0 ""
 Po -6.35 1.27
 $EndPAD
 $PAD
 Sh "5" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 2 "/A0"
+Ne 0 ""
 Po -3.81 1.27
 $EndPAD
 $PAD
 Sh "6" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 3 "/A1"
+Ne 0 ""
 Po -1.27 1.27
 $EndPAD
 $PAD
 Sh "7" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 4 "/A2"
+Ne 0 ""
 Po 1.27 1.27
 $EndPAD
 $PAD
 Sh "8" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 5 "/A3"
+Ne 0 ""
 Po 3.81 1.27
 $EndPAD
 $PAD
 Sh "9" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 12 "VCC"
+Ne 0 ""
 Po 6.35 1.27
 $EndPAD
 $PAD
 Sh "10" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 9 "/RESET"
+Ne 0 ""
 Po 8.89 1.27
 $EndPAD
 $PAD
 Sh "11" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 11 "GND"
+Ne 0 ""
 Po 11.43 1.27
 $EndPAD
 $PAD
 Sh "12" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 1 "/12V"
+Ne 0 ""
 Po 13.97 1.27
 $EndPAD
 $SHAPE3D
@@ -206432,6 +206433,118 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE pin_array_12x1
+$MODULE pin_array_13x1
+Po 0 0 0 15 51C20B79 00000000 ~~
+Li pin_array_13x1
+Cd Double rangee de contacts 2 x 12 pins
+Kw CONN
+Sc 0
+AR /4F65EEDB
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.254 N V 21 N "P?"
+T1 0 3.81 1.016 1.016 0 0.2032 N V 21 N "CONN_13"
+DS 17.8435 0 17.8435 2.54 0.381 21
+DS -15.24 0 -15.24 2.54 0.381 21
+DS -15.24 2.54 17.78 2.54 0.381 21
+DS 17.78 0 -15.24 0 0.381 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "11" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "12" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "13" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_12x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_13x1
 $MODULE pin_array_6x1
 Po 0 0 0 15 4F70AE3E 00000000 ~~
 Li pin_array_6x1
